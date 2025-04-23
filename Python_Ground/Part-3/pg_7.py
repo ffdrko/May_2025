@@ -63,15 +63,19 @@ prize = 0
 question_list = [question_1, question_2, question_3, question_4, question_5, question_6, question_7, question_8, question_9, question_10]
 answers = ["B", "B", "B", "A",  "B",  "A",  "B",  "C", "B",  "B"]
 
-for i, ques in enumerate(question_list):
-    print(i + 1,".",ques)
+index = 0
+while index < len(question_list):
+    print(question_list[index])
     user_ans = input("Enter your option (A/B/C/D): ").strip().upper()
-    if user_ans == answers[i]:
-        print("Correct Answer!")
+
+    if user_ans == answers[index]:
+        print("Correct Answer!\n")
         prize += 100000
-        print("You have won taka", prize)
     else:
-        print("Sorry, wrong answer.")
-        break
+        print("Sorry, wrong answer.\n")
+
+    index += 1  # Increment index manually
+
+
 
 print("Your total prize money is", prize)

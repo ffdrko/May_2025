@@ -9,3 +9,6 @@ print(type(10 + 2.5))
 
 print(9.9 + 1.1)
 print(type(9.9 + 1.1))
+
+print(1 + 2j)
+print(type(1 + 2j))

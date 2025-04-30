@@ -6,3 +6,4 @@ print(user_sectorNO)
 user_sectorNO = 2
 print(user_iq)
 print(user_sectorNO)
+print(user_iq)

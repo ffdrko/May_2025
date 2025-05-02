@@ -1,0 +1,1 @@
+print("End of the day we all face our problem alone.")

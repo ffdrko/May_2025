@@ -1,2 +1,4 @@
-play chess
 play football.
+check the email.
+add a gang.
+read a paper.

@@ -10,3 +10,4 @@ def get_avg():
 
 average = get_avg()
 print(average)
+print(average)

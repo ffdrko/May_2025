@@ -8,3 +8,4 @@ def greeting():
 
 text = greeting()
 print(text)
+print(text)

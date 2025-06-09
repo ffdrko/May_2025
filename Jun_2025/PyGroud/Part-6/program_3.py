@@ -15,7 +15,7 @@ for ques in data:
     ques["user_choice"] = user_input
 
 for index, ques in enumerate(data):
-    if ques["user_choice"] == ques["options"]:
+    if ques["user_choice"] == ques["answer"]:
         score = score + 1
 
 
